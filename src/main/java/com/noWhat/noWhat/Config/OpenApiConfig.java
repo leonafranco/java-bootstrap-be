@@ -8,7 +8,7 @@ public class OpenApiConfig {
     @Bean
     public OpenAPI usersMicroserviceOpenAPI() {
         return new OpenAPI()
-                .info(new Info().title("BoilerPlate Java Spring")
+                .info(new Info().title("leo da foice")
                         .description("BoilerPlate for a spring app")
                         .version("1.0"));
     }

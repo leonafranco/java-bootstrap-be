@@ -1,0 +1,30 @@
+version: '3.9'
+services:
+  app:
+    image: 'docker-spring-boot-postgres:latest'
+    build:
+      context: .
+    container_name: be
+    depends_on:
+      - db
+    environment:
+      - POSTGRES_USER=$YOUR_USERNAME
+      - POSTGRES_PASSWORD=$YOUR_PASSWORD
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/${YOUR_DB_NAME}
+      - SPRING_DATASOURCE_USERNAME=${YOUR_USERNAME}
+      - SPRING_DATASOURCE_PASSWORD=${YOUR_PASSWORD}
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+      - SPRING.JPA.PROPERTIES.HIBERNATE.JDBC.LOB.NON_CONTEXTUAL_CREATION=true
+      - SPRING.JPA.SHOW-SQL=true
+      - SPRING.JPA.PROPERTIES.HIBERNATE.FORMAT_SQL=true
+    ports:
+      - "8080:8080"
+  db:
+    image: postgres
+    container_name: db
+    environment:
+      - POSTGRES_USER=${YOUR_USERNAME}
+      - POSTGRES_PASSWORD=${YOUR_PASSWORD}
+      - POSTGRES_DB=${YOUR_DB_NAME}
+    ports:
+      - "5432:5432"
