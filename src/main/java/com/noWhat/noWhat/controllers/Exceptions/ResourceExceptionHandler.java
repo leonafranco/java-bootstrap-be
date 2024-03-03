@@ -1,7 +1,7 @@
 package com.noWhat.noWhat.controllers.Exceptions;
 
-import com.noWhat.noWhat.Services.Exceptions.DatabaseException;
-import com.noWhat.noWhat.Services.Exceptions.ResourceNotFoundException;
+import com.noWhat.noWhat.services.Exceptions.DatabaseException;
+import com.noWhat.noWhat.services.Exceptions.ResourceNotFoundException;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,9 +1,9 @@
-package com.noWhat.noWhat.Services;
+package com.noWhat.noWhat.services;
 
-import com.noWhat.noWhat.Entities.User;
-import com.noWhat.noWhat.Repository.UserRepository;
-import com.noWhat.noWhat.Services.Exceptions.DatabaseException;
-import com.noWhat.noWhat.Services.Exceptions.ResourceNotFoundException;
+import com.noWhat.noWhat.entities.User;
+import com.noWhat.noWhat.repository.UserRepository;
+import com.noWhat.noWhat.services.Exceptions.DatabaseException;
+import com.noWhat.noWhat.services.Exceptions.ResourceNotFoundException;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;

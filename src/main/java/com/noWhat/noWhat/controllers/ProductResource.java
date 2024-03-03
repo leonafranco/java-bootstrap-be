@@ -1,7 +1,7 @@
 package com.noWhat.noWhat.controllers;
 
-import com.noWhat.noWhat.Entities.Product;
-import com.noWhat.noWhat.Services.ProductService;
+import com.noWhat.noWhat.entities.Product;
+import com.noWhat.noWhat.services.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

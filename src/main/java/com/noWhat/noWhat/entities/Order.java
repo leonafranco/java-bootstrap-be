@@ -1,11 +1,11 @@
-package com.noWhat.noWhat.Entities;
+package com.noWhat.noWhat.entities;
 
 import java.io.Serializable;
 import java.time.Instant;
 import java.util.HashSet;
 import java.util.Set;
 
-import com.noWhat.noWhat.Enum.OrderStatus;
+import com.noWhat.noWhat.constants.OrderStatus;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;

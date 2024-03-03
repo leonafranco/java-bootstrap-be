@@ -1,8 +1,7 @@
-package com.noWhat.noWhat.Config;
+package com.noWhat.noWhat.config;
 
-import com.noWhat.noWhat.Entities.*;
-import com.noWhat.noWhat.Enum.OrderStatus;
-import com.noWhat.noWhat.Repository.*;
+import com.noWhat.noWhat.entities.*;
+import com.noWhat.noWhat.repository.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
@@ -10,10 +9,8 @@ import org.springframework.context.annotation.Profile;
 
 import java.time.Instant;
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
 
-import static com.noWhat.noWhat.Enum.OrderStatus.WAITING_PAYMENT;
+import static com.noWhat.noWhat.constants.OrderStatus.WAITING_PAYMENT;
 
 @Configuration
 @Profile("test")

@@ -1,4 +1,4 @@
-package com.noWhat.noWhat.Services.Exceptions;
+package com.noWhat.noWhat.services.Exceptions;
 
 public class DatabaseException extends RuntimeException{
 

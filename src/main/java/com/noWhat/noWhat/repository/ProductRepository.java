@@ -1,7 +1,6 @@
-package com.noWhat.noWhat.Repository;
+package com.noWhat.noWhat.repository;
 
-import com.noWhat.noWhat.Entities.Category;
-import com.noWhat.noWhat.Entities.Product;
+import com.noWhat.noWhat.entities.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ProductRepository extends JpaRepository<Product, Long> {

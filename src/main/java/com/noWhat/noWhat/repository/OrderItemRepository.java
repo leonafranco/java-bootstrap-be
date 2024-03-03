@@ -1,7 +1,6 @@
-package com.noWhat.noWhat.Repository;
+package com.noWhat.noWhat.repository;
 
-import com.noWhat.noWhat.Entities.OrderItem;
-import com.noWhat.noWhat.Entities.User;
+import com.noWhat.noWhat.entities.OrderItem;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface OrderItemRepository extends JpaRepository<OrderItem, Long> {

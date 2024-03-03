@@ -1,8 +1,8 @@
 package com.noWhat.noWhat.pk;
 import java.io.Serializable;
 
-import com.noWhat.noWhat.Entities.Order;
-import com.noWhat.noWhat.Entities.Product;
+import com.noWhat.noWhat.entities.Order;
+import com.noWhat.noWhat.entities.Product;
 
 import jakarta.persistence.Embeddable;
 import jakarta.persistence.JoinColumn;

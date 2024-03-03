@@ -1,4 +1,4 @@
-package com.noWhat.noWhat.Enum;
+package com.noWhat.noWhat.constants;
 
 public enum OrderStatus {
 

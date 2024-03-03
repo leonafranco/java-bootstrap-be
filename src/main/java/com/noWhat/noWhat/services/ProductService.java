@@ -1,9 +1,7 @@
-package com.noWhat.noWhat.Services;
+package com.noWhat.noWhat.services;
 
-import com.noWhat.noWhat.Entities.Category;
-import com.noWhat.noWhat.Entities.Product;
-import com.noWhat.noWhat.Repository.CategoryRepository;
-import com.noWhat.noWhat.Repository.ProductRepository;
+import com.noWhat.noWhat.entities.Product;
+import com.noWhat.noWhat.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

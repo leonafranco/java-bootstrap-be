@@ -1,7 +1,7 @@
 package com.noWhat.noWhat.controllers;
 
-import com.noWhat.noWhat.Entities.Category;
-import com.noWhat.noWhat.Services.CategoryService;
+import com.noWhat.noWhat.entities.Category;
+import com.noWhat.noWhat.services.CategoryService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;

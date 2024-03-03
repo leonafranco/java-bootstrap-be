@@ -1,9 +1,7 @@
-package com.noWhat.noWhat.Services;
+package com.noWhat.noWhat.services;
 
-import com.noWhat.noWhat.Entities.Order;
-import com.noWhat.noWhat.Entities.User;
-import com.noWhat.noWhat.Repository.OrderRepository;
-import com.noWhat.noWhat.Repository.UserRepository;
+import com.noWhat.noWhat.entities.Order;
+import com.noWhat.noWhat.repository.OrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

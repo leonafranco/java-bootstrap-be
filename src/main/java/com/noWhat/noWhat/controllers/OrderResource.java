@@ -1,7 +1,7 @@
 package com.noWhat.noWhat.controllers;
 
-import com.noWhat.noWhat.Entities.Order;
-import com.noWhat.noWhat.Services.OrderService;
+import com.noWhat.noWhat.entities.Order;
+import com.noWhat.noWhat.services.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

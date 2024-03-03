@@ -1,4 +1,4 @@
-package com.noWhat.noWhat.Entities;
+package com.noWhat.noWhat.entities;
 
 import java.io.Serializable;
 
